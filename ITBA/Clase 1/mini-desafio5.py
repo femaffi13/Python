@@ -20,14 +20,10 @@ while a <= b:
 # Para un desafío mayor: Utilizar 1 solo while, 1 solo if y 1 solo else.
 # Es recomendable que la variable usada para contar los pasos se mantenga contando siempre de la misma forma.
 
-a = 1
-b = 5
-c = 0
-while a <= b:
-  print(a)
-  a+=1 
-
-a-=1
-while a > c:
-  a-=1
-  print(a)
+i = 1
+while i < 11:
+  if i < 5:
+    print(i)
+  else:
+    print(10-i)
+  i+=1
