@@ -20,3 +20,4 @@ while num != 1:
         num = (num * 3) + 1
     pasos += 1
 print(f"Cantidad de pasos que tardó en llegar: {pasos}")
+
